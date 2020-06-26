@@ -50,6 +50,52 @@
           </ul>
         </article>
       </section>
+      <section class="main-section" id="Basic_pattern_operations">
+        <header>Basic Pattern Operations</header>
+        <article>
+          <p>
+            The sequencer of the Digitakt stores information in patterns. A pattern controls the playback of the audio tracks,
+            the MIDI tracks and various pattern-specific aspects of the tracks. Each of the eight banks, A to H, contains 16
+            patterns, which means 128 patterns are available for each project.
+          </p>
+          <p>
+            Digitakt can seamlessly switch between patterns. this, together with the ability to chain patterns, is a handy feature when improvising
+            live. When a pattern is playing, and a new pattern is selected, the new pattern position will be shown flashing in the 
+            upper left corner of the screen. Once the last step of the pattern has played, the new pattern will start, and the pattern position will cease to flash.
+          </p>
+          <ul>
+            <li>
+              patterns can be changed while the sequencer is running.
+            </li>
+            <li>
+              Patterns can be changed and queued by sending program change messages.
+            </li>
+            <li>
+              After a pattern is selected, and before releasing any key, [RECORD], [PLAY] and [STOP] can be 
+              pressed to copy, clear or paste patterns without leaving the active pattern. It is possible to 
+              clear and paste multiple patterns at the same time.
+            </li>
+          </ul>
+          <p>
+            Press [PLAY] to start the playback of a pattern. Press [STOP] to stop the playback of all tracks. The 
+            sound will be cut off, but effects like Delay will continue to be audible until the delay repeats have 
+            faded out. When the sequencer has stopped, quickly press [STOP] + [STOP] to stop playback of all tracks
+            and get just a short fade out the send effects.
+          </p>
+          <ul>
+            <li>
+              When a pattern is plaing and [PLAY] is pressed, playback will pause. Press [PLAY] again to resume the playback.
+            </li>
+            <li>
+              If a pattern contains more than 16 sequencer steps, the PATTERN PAGE LEDs will indicate this. When a pattern
+              is playing, the currently active pattern page is shown with a flashing PATTERN PAGE LED.
+            </li>
+            <li>
+              The tempo is set in the TEMPO menu. Press [TEMPO] to open this menu. 
+            </li>
+          </ul>
+        </article>
+      </section>
     </main>
   </body>
 </html>
