@@ -160,6 +160,49 @@
           </ul>
         </article>
       </section>
+      <section class="main-section" id="Micro_timing_menu">
+        <header>Micro Timing Menu</header>
+        <article>
+          <p>
+            Here you can add micro timing to a note trig, moving it ahead or behind the beat. Micro timing can be customized on any of the sequencer steps on both
+            audio and MIDI tracks In GRID RECORDING mode, press and hold one or several [TRIG] keys and then press [LEFT]/[RIGHT] to access the pop-up Micro timing 
+            menu that shows the time offset for the chosen sequencer step(s) on the acitve trak. To exit the micro timing menu, release the [TRIG] key(s). The micro 
+            timing settings are stored in the active pattern. MICRO TIMING Press [LEFT]/[RIGHT] keys to adjust the time offset.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Retrig_menu">
+        <header>Retrig Menu</header>
+        <article>
+          <p>
+            Retrigs can be customized on any of the sequencer steps on the audio tracks. In GRID RECORDING mode, press and hold one or several [TRIG] keys and then 
+            press [UP]/[DOWN] to access the pop-up Retrig menu that shows the retrig actions for the chosen sequencer step(s) on the active track. To exit the Retrig menu, 
+            release the [trig] key(s). The retrig sttings are stored in the active patern.
+          </p>
+          <ul>
+            <li>
+              RETRIG turns the retrig lock ON/OFF. When on, the retrig will activate whenever the [TRIG] key of the active track is pressed. Use DATA ENTRY knob A to turn retrig on/off.
+            </li>
+            <li>
+              RATE Sets the retrig rate(1/1, 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10, 1/12, 1/16, 1/20, 1/24, 1/32, 1/40, 1/48, 1/64, or 1/80). 1/16 is the nominal retrig rate, one trig per step. 
+              1/32 corresponds to two trigs per step and so on. To trig triplets, for examle, set the retrig rate to 1/12 (or 1/24). You can also press the [UP]/[DOWN] keys when you are in the 
+              retrig menu to adjust the rate.
+            </li>
+            <li>
+              LEN Sets the duration of the retrig velocity curve in fractions of, or rational or integer multiples of, a step (0,125-INF). 1/16 is the nominal length of one step. This setting 
+              affects the behavior of the velocit curve by defining the boundaries of its envelope.
+            </li>
+            <li>
+              VEL Sets the velocity curve fade out/fade in of the retrig (-128-127). -128 corresponds to a complete fade out during the set length, -64 fades out to half the velocity during the 
+              set length, 0 equals a flat velocity curve with no fade, 64 fades into half velocity during the set length and 127 fades in completely for full velocity during the set length.
+            </li>
+          </ul>
+          <p>
+            Retrigs can be recorded on the sequencer in GRID RECORDING mode as well as in LIVE RECORDING mode. they are recorded as separate trigs. If the retrig speed is greater than the 
+            duration of a sequencer step, trigs are created with additional internal steps (i.e. steps with retrig enabled).
+          </p>
+        </article>
+      </section>
     </main>
   </body>
 </html>
