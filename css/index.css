@@ -119,11 +119,19 @@ code {
   }
 
   code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
     margin-left: -20px;
     width: 100%;
     padding: 15px;
     padding-left: 10px;
     padding-right: 45px;
     min-width: 233px;
+    border-radius: 3px;
   }
 }
